@@ -1,4 +1,9 @@
 package marumasa.sneak_shield;
 
-public class SneakShield {
+import net.fabricmc.api.ModInitializer;
+
+public class SneakShield implements ModInitializer {
+    @Override
+    public void onInitialize() {
+    }
 }
