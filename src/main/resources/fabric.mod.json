@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "id": "sneak_shield",
+  "version": "${version}",
+  "name": "SneakShield",
+  "description": "",
+  "authors": [],
+  "contact": {
+    "repo": "https://github.com/malken21/SneakShield"
+  },
+  "license": "MIT",
+  "icon": "assets/sneak_shield/icon.png",
+  "environment": "client",
+  "entrypoints": {
+    "client": [
+      "marumasa.sneak_shield.client.SneakShieldClient"
+    ],
+    "main": [
+      "marumasa.sneak_shield.SneakShield"
+    ]
+  },
+  "mixins": [
+    "sneak_shield.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=${loader_version}",
+    "fabric": "*",
+    "minecraft": "${minecraft_version}"
+  }
+}
